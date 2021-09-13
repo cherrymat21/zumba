@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Cinzel Decorative" ;
+    src: url(../fonts/CinzelDecorative-Regular.ttf);
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(../img/zumba\ bg.jpg);
+    color: rgb(3, 5, 4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100%;
+}
+header{
+   padding: 16px 25px;
+   text-decoration: none;
+   font-family: 'Cinzel Decorative', cursive;
+   font-size: 30px;
+   width: 80%;
+  margin:50px; 
+  margin-bottom: 5%;
+   display: flex;
+    justify-content: space-evenly;
+    font-weight: bolder;
+}
+  h1{
+      font-weight: bolder;
+      font-family: 'Cinzel Decorative', cursive;
+      font-size: 80px;
+      color: rgb(41, 141, 27);
+      display: flex;
+      justify-content: center;
+      
+  }
+  p{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 45px;
+    font-weight: bolder;
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+  h3{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      font-size: 40px;
+      margin-top: 10%;
+  }
+  .icons{
+      display: flex;
+      justify-content:center;
+      width: 100%;
+      margin: 5px;
+  }
+  i{
+      margin-right: 30px;
+      margin-bottom: 10%;
+  }
+  h4{
+      font-size: 60px;
+      margin-top: 10%;
+      font-style: italic;
+  }
+  
+   h5{
+      font-size: 25px;
+      color: rgb(7, 56, 32);
+      font-style: italic;
+}
+h6{
+    font-style: italic;
+    font-size: 13px;
+}
+ footer{
+    padding: 16px 25px;
+   text-decoration: none;
+   font-family: 'Cinzel Decorative', cursive;
+   font-size: 30px;
+   width: 25%;
+ margin-top: 10%;
+   display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+  }
+ 

@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/car.jpg);
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+nav ul li {
+   display: inline-block; 
+   list-style-type: none;
+}
+
+nav ul li a {
+    display: block;
+    /* (if the html or root is 16 px, 1rem is 16 px. When the html or root changes then the rem unit changes also) */
+    padding: 0.6rem 0.8rem;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(163, 158, 158);
+    color: black;
+    border-radius: 5%;
+    font-size: 14px;
+}
+
+/* Here starts the style for products */
+
+figure img {
+    width: 100%;
+    object-fit: scale-down;
+}
+
+/* Here starts the contact page */
+
+form {
+    max-width: 25%;
+    margin: 120px auto;
+    color: white;
+    backdrop-filter: blur(8px);
+}
+
+fieldset {
+    border-radius: 4px;
+    
+}
+
+legend {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    padding: 6px;
+    /* border-radius: 5%; */
+    font-weight: lighter;
+    margin-left: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 80%;
+    padding: 5px;
+    margin-left: 15px;
+    font-weight: lighter;
+}
+
+
+
+input {
+    width: 80%;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+button {
+    width: 80%;
+    padding: 5px;
+    margin: 15px;
+    background-color: rgb(75, 111, 218, 0.719);
+    border-radius: 4px;
+}
+
+i {
+    color: white;
+    padding: 20px;
+}
+
+.icons {
+    position: fixed;
+    bottom: 10px;
+    left: 38%;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+/* Here start the service page */
+
+#services {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-top: 120px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    font-weight: bold;
+}
+.service {
+    text-align: center;
+}
+
+.service-ul {
+    padding: 20px;
+}
+
+.service-ul li {
+    list-style-type: none;
+}
+
